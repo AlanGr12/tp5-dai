@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Bienevenido a mini pokedex, aca podes buscar todos los pokemons que vos quieras</h1>
-    <input type="text" placeholder="Ingrese el nombre del pokemon que quiere buscar" id = "nombre">
-    <button>Buscar</button>
+       <h1>Bienevenido a mini pokedex, aca podes buscar todos los pokemons que vos quieras</h1>
+    <input type="text" placeholder="Ingrese el nombre del pokemon que quiere buscar" id="nombrePokemon">
+    <button onclick="buscarPokemon()">Buscar</button>
+    <p id="loading">Buscando pokemon.</p>
+    <div id="resultado"></div>
+     <script src="index.js"></script>
 </body>
 </html>
